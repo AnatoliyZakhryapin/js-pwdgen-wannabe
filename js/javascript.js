@@ -18,6 +18,9 @@
         userColore = prompt ("Qual'è il tuo colore preferito?")
         console.log(userColore);
 // - Assegnazione password 
-//     - dichiarare una variabile (parte numerico del password) 
+//     - dichiarare una variabile (parte numerico del password)
+        let lastNumberPassword = 21;
 //     - dichiarare una variabile del password
+        let userPassword = userName + userSurname + userColore + lastNumberPassword;
+                console.log(userPassword);
 // - Invio password al utente
