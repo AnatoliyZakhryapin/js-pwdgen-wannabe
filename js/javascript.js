@@ -13,7 +13,10 @@
         console.log(userSurname);
 // - Richiesta il colore preferito
 //     - dichiarare una variabile
+        let userColore; 
 //     - assegnare alla variabile il valore restituito da un prompt
+        userColore = prompt ("Qual'è il tuo colore preferito?")
+        console.log(userColore);
 // - Assegnazione password 
 //     - dichiarare una variabile (parte numerico del password) 
 //     - dichiarare una variabile del password
