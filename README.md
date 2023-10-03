@@ -13,3 +13,5 @@
     - dichiarare una variabile (parte numerico del password) 
     - dichiarare una variabile del password
 - Invio password al utente
+    - recuperare con js l'elemento del dom con id= "userPassword"
+    - modificare l'innerHTML del elemento "userPassword" con il valore della variabile userPassword
