@@ -19,7 +19,7 @@
         console.log(userColore);
 // - Assegnazione password 
 //     - dichiarare una variabile (parte numerico del password)
-        let lastNumberPassword = Math.floor(Math.random() * 99) + 11;
+        let lastNumberPassword = Math.floor(Math.random(10) * 99) + 1;
 //     - dichiarare una variabile del password
         let userPassword = userName + userSurname + userColore + lastNumberPassword;
                 console.log(userPassword);
