@@ -23,4 +23,9 @@
 //     - dichiarare una variabile del password
         let userPassword = userName + userSurname + userColore + lastNumberPassword;
                 console.log(userPassword);
-// - Invio password al utente
+// - Invio password al utente 
+//     - recuperare con js l'elemento del dom con id= "userPassword"
+        const messageDomElement = document.getElementById("userPassword");
+        console.dir(messageDomElement);
+//     - modificare l'innerHTML del elemento "userPassword" con il valore della variabile userPassword
+        messageDomElement.innerHTML = userPassword;
