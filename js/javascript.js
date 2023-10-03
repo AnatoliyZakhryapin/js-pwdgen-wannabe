@@ -3,6 +3,7 @@
         let userName; 
 //     - assegnare alla variabile il valore restituito da un prompt
         userName = prompt ("Ciao, come ti chiami?");
+        userName = userName.trim();
         console.log(userName);
 
 // - Richiesta il cognome
@@ -10,12 +11,14 @@
         let userSurname;
 //     - assegnare alla variabile il valore restituito da un prompt
         userSurname = prompt ("Qual'è il tuo cognome?");
+        userSurname = userSurname.trim();
         console.log(userSurname);
 // - Richiesta il colore preferito
 //     - dichiarare una variabile
         let userColore; 
 //     - assegnare alla variabile il valore restituito da un prompt
-        userColore = prompt ("Qual'è il tuo colore preferito?")
+        userColore = prompt ("Qual'è il tuo colore preferito?");
+        userColore = userColore.trim();
         console.log(userColore);
 // - Assegnazione password 
 //     - dichiarare una variabile (parte numerico del password)
