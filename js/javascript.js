@@ -7,7 +7,10 @@
 
 // - Richiesta il cognome
 //     - dichiarare una variabile
+        let userSurname;
 //     - assegnare alla variabile il valore restituito da un prompt
+        userSurname = prompt ("Qual'è il tuo cognome?");
+        console.log(userSurname);
 // - Richiesta il colore preferito
 //     - dichiarare una variabile
 //     - assegnare alla variabile il valore restituito da un prompt
